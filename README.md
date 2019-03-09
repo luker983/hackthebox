@@ -4,7 +4,7 @@ Check out my [Profile](https://www.hackthebox.eu/profile/69325) on [HackTheBox](
 
 ## Completed Machines
 
-* Curling (User Only)
+* Curling
 * Access
 * Waldo
 * Active
