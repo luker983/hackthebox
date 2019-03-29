@@ -12,6 +12,8 @@ Check out my [Profile](https://www.hackthebox.eu/profile/69325) on [HackTheBox](
 * Active
 
 ## Completed Challenges
+
+* Cartographer
 * Sick Teacher
 * Classic, yet complicated!
 * 0ld is g0ld
