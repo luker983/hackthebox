@@ -4,6 +4,7 @@ Check out my [Profile](https://www.hackthebox.eu/profile/69325) on [HackTheBox](
 
 ## Completed Machines
 
+* Irked (User only)
 * Netmon
 * Curling
 * Access
