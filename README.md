@@ -5,6 +5,7 @@ Email: lukerindels98@hotmail.com
 
 ## Completed Machines
 
+* LaCasaDePapel
 * Help
 * Irked
 * Netmon
