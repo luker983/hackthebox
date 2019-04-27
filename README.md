@@ -5,6 +5,7 @@ Email: lukerindels98@hotmail.com
 
 ## Completed Machines
 
+* Querier
 * LaCasaDePapel
 * Help
 * Irked

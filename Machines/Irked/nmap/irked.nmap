@@ -1,0 +1,25 @@
+# Nmap 7.70 scan initiated Thu Mar 28 16:31:28 2019 as: nmap -sC -sV -oA irked --style nmap-bootstrap.xsl -p8067,6697,65534,111,22,33262 10.10.10.117
+Nmap scan report for 10.10.10.117
+Host is up (0.17s latency).
+
+PORT      STATE  SERVICE VERSION
+22/tcp    open   ssh     OpenSSH 6.7p1 Debian 5+deb8u4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 75:2e:66:bf:b9:3c:cc:f7:7e:84:8a:8b:f0:81:02:33 (RSA)
+|   256 c8:a3:a2:5e:34:9a:c4:9b:90:53:f7:50:bf:ea:25:3b (ECDSA)
+|_  256 8d:1b:43:c7:d0:1a:4c:05:cf:82:ed:c1:01:63:a2:0c (ED25519)
+111/tcp   open   rpcbind 2-4 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2,3,4        111/tcp  rpcbind
+|   100000  2,3,4        111/udp  rpcbind
+|   100024  1          32801/tcp  status
+|_  100024  1          43356/udp  status
+6697/tcp  open   irc     UnrealIRCd (Admin email djmardov@irked.htb)
+8067/tcp  open   irc     UnrealIRCd (Admin email djmardov@irked.htb)
+33262/tcp closed unknown
+65534/tcp open   irc     UnrealIRCd (Admin email djmardov@irked.htb)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Mar 28 16:32:37 2019 -- 1 IP address (1 host up) scanned in 68.79 seconds

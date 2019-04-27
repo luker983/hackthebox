@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="nmap-bootstrap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Thu Mar 28 16:31:28 2019 as: nmap -sC -sV -oA irked -&#45;style nmap-bootstrap.xsl -p8067,6697,65534,111,22,33262 10.10.10.117 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA irked -&#45;style nmap-bootstrap.xsl -p8067,6697,65534,111,22,33262 10.10.10.117" start="1553805088" startstr="Thu Mar 28 16:31:28 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="6" services="22,111,6697,8067,33262,65534"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="NSE" time="1553805131" percent="99.85" remaining="1" etc="1553805131"/>
+<taskprogress task="NSE" time="1553805152" percent="99.85" remaining="1" etc="1553805152"/>
+<host starttime="1553805088" endtime="1553805157"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.117" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="6.7p1 Debian 5+deb8u4" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:6.7p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 75:2e:66:bf:b9:3c:cc:f7:7e:84:8a:8b:f0:81:02:33 (RSA)&#xa;  256 c8:a3:a2:5e:34:9a:c4:9b:90:53:f7:50:bf:ea:25:3b (ECDSA)&#xa;  256 8d:1b:43:c7:d0:1a:4c:05:cf:82:ed:c1:01:63:a2:0c (ED25519)"><table>
+<elem key="fingerprint">752e66bfb93cccf77e848a8bf0810233</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDDGASnp9kH4PwWZHx/V3aJjxLzjpiqc2FOyppTFp7/JFKcB9otDhh5kWgSrVDVijdsK95KcsEKC/R+HJ9/P0KPdf4hDvjJXB1H3Th5/83gy/TEJTDJG16zXtyR9lPdBYg4n5hhfFWO1PxM9m41XlEuNgiSYOr+uuEeLxzJb6ccq0VMnSvBd88FGnwpEoH1JYZyyTnnbwtBrXSz1tR5ZocJXU4DmI9pzTNkGFT+Q/K6V/sdF73KmMecatgcprIENgmVSaiKh9mb+4vEfWLIe0yZ97c2EdzF5255BalP3xHFAY0jROiBnUDSDlxyWMIcSymZPuE1N6Tu8nQ/pXxKvUar</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048.0</elem>
+</table>
+<table>
+<elem key="fingerprint">c8a3a25e349ac49b9053f750bfea253b</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFeZigS1PimiXXJSqDy2KTT4UEEphoLAk8/ftEXUq0ihDOFDrpgT0Y4vYgYPXboLlPBKBc0nVBmKD+6pvSwIEy8=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="fingerprint">8d1b43c7d01a4c05cf82edc10163a20c</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIC6m+0iYo68rwVQDYDejkVvsvg22D8MN+bNWMUEOWrhj</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/><script id="rpcinfo" output="&#xa;  program version   port/proto  service&#xa;  100000  2,3,4        111/tcp  rpcbind&#xa;  100000  2,3,4        111/udp  rpcbind&#xa;  100024  1          32801/tcp  status&#xa;  100024  1          43356/udp  status&#xa;"><table key="100024">
+<table key="tcp">
+<elem key="port">32801</elem>
+<table key="version">
+<elem>1</elem>
+</table>
+</table>
+<table key="udp">
+<elem key="port">43356</elem>
+<table key="version">
+<elem>1</elem>
+</table>
+</table>
+</table>
+<table key="100000">
+<table key="tcp">
+<elem key="port">111</elem>
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+</table>
+<table key="udp">
+<elem key="port">111</elem>
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="6697"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="irc" product="UnrealIRCd" extrainfo="Admin email djmardov@irked.htb" method="probed" conf="10"><cpe>cpe:/a:unrealircd:unrealircd</cpe></service></port>
+<port protocol="tcp" portid="8067"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="irc" product="UnrealIRCd" extrainfo="Admin email djmardov@irked.htb" method="probed" conf="10"><cpe>cpe:/a:unrealircd:unrealircd</cpe></service></port>
+<port protocol="tcp" portid="33262"><state state="closed" reason="reset" reason_ttl="63"/></port>
+<port protocol="tcp" portid="65534"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="irc" product="UnrealIRCd" extrainfo="Admin email djmardov@irked.htb" method="probed" conf="10"><cpe>cpe:/a:unrealircd:unrealircd</cpe></service></port>
+</ports>
+<times srtt="168190" rttvar="38106" to="320614"/>
+</host>
+<runstats><finished time="1553805157" timestr="Thu Mar 28 16:32:37 2019" elapsed="68.79" summary="Nmap done at Thu Mar 28 16:32:37 2019; 1 IP address (1 host up) scanned in 68.79 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
