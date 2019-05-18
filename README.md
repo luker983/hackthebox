@@ -5,6 +5,7 @@ Email: lukerindels98@hotmail.com
 
 ## Completed Machines
 
+* Bastion
 * Querier
 * LaCasaDePapel
 * Help
@@ -17,6 +18,7 @@ Email: lukerindels98@hotmail.com
 
 ## Completed Challenges
 
+* The Art of Reversing
 * Cartographer
 * Sick Teacher
 * Classic, yet complicated!
